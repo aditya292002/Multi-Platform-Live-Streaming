@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Platform Live Streaming</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Multi-Platform Live Streaming</h1>
+    </header>
+    <main>
+        <section id="live-stream">
+            <h2>Live Stream</h2>
+            <!-- Your live streaming video element goes here -->
+            <!-- For example: <video id="stream-video" controls autoplay></video> -->
+            <button id="start-stream-btn">Start Stream</button>
+        </section>
+        <section id="viewer-info">
+            <h2>Viewer Information</h2>
+            <div id="viewer-count">
+                <h3>Viewer Count: <span id="count">0</span></h3>
+            </div>
+            <div id="comments">
+                <h3>Comments:</h3>
+                <ul id="comments-list">
+                    <!-- Comments will be added dynamically here -->
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
